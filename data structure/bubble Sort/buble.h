@@ -22,4 +22,4 @@ void bubble_sort(int *Array ,int size, int(*pf)(int,int) )
 }
 
 int			 compare		(int ,int ); 
-int			 bubble_sort 	(int* ,int ,int(*pf)(int,int));
+void			 bubble_sort 	(int* ,int ,int(*pf)(int,int));
