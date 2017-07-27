@@ -108,5 +108,5 @@
 #ifndef PD7 
 #define PD7 PORTD7
 
-void pinMode(int port,obj* state)
+//void pinMode(int port,obj* state)
 #endif
