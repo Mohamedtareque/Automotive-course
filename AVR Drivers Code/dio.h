@@ -23,6 +23,7 @@ typedef unsigned int uint16_t ;
 typedef unsigned double uint32_t ;
 
 #define SET_REG8_BIT (reg,pin) *(volatile uint8_t*) reg |=1 << pin
+#define CLEAR_REG8_BIT (reg,pin) *(volatile uint8_t*) reg &=~(1<<pin)
 #define SET_REG16_BIT(reg,pin) *(volatile uint16_t*)reg |=1 << pin 
 
 #define BASE_A 0x39
