@@ -9,7 +9,7 @@ void main()
   timer0_init() ;
   while(1)
   {
-    if(TCNT >= 124)
+    if(TCNT >= 1952)
     {
        PORTC ^=(1<<0x01);
        TCNT0=0;
