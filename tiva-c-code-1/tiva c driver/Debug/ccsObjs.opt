@@ -1,0 +1,1 @@
+"./main.o" "./tm4c123gh6pm_startup_ccs_gcc.o" "./HAL/gpio.o" "./HAL/system.o" "./HAL/timer.o" "./HAL/uart.o" "./SAL/LIN/cnfg_lin_protocol.o" "./SAL/LIN/lin_protocol.o" "./SAL/NVICInterruptHandler.o" "./gpioapp/gpio_app.o" -Wl,-T"../tm4c123gh6pm.lds" 
